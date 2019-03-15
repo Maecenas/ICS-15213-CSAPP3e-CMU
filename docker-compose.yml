@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  shark:
+    build: .
+    image: lx70716/cmu-15213:latest
+    container_name: cmu-15213
+    volumes:
+      - ./labs:/usr/src/app/
+    restart: "no"
+    stdin_open: true  # --interactive Keep STDIN open even if not attached (docker exec -i)
+    tty: true         # --tty Allocate a pseudo-TTY (docker exec -t)
+
