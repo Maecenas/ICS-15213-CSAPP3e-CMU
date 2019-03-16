@@ -21,18 +21,13 @@ The ICS ([Introduction to Computer Systems, 15-213/18-213/15-513](https://www.cs
 
 ## Developing Environment Setup with Docker
 
-The following is about a Dockerized developing environment for 15213, based on Ubuntu.
+The following is about a containerized developing environment for 15213, based on Docker and Ubuntu.
 
 ```bash
-$ docker pull lx70716/cmu-15213
-$ docker run --rm -v "`pwd`"/labs:/usr/src/app/ -it lx70716/cmu-15213
-```
-
-Or play with Docker Compose
-
-```
-$ wget https://github.com/Maecenas/ICS-15213-CSAPP3e-CMU/raw/master/docker-compose.yml
+$ git clone git@github.com:Maecenas/ICS-15213-CSAPP3e-CMU.git
 $ docker-compose run --rm shark
+# can also run with Docker
+$ docker run --rm -v "`pwd`"/labs:/usr/src/app/ -it lx70716/cmu-15213
 ```
 
 ## Reference
