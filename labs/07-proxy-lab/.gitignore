@@ -1,0 +1,16 @@
+*~
+*.o
+proxy
+core
+*.tar
+*.zip
+*.gzip
+*.bzip
+*.gz
+tiny/*.o
+tiny/tiny
+tiny/*~
+tiny/adder
+tiny/cgi-bin/adder
+tiny/cgi-bin/*~
+

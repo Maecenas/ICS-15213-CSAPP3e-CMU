@@ -10,6 +10,7 @@ The ICS ([Introduction to Computer Systems, 15-213/18-213/15-513](https://www.cs
 
 ## Lab Assignments
 
+- C Programming Lab
 - Data Lab
 - Bomb Lab
 - Attack Lab
