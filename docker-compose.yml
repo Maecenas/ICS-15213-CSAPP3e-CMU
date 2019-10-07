@@ -10,4 +10,7 @@ services:
     restart: "no"
     stdin_open: true  # --interactive Keep STDIN open even if not attached (docker exec -i)
     tty: true         # --tty Allocate a pseudo-TTY (docker exec -t)
-
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - SYS_PTRACE
