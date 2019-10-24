@@ -8,6 +8,7 @@ RUN apt-get update \
     binutils \
     gdb \
     gcc-multilib \
+    valgrind \
     python \
     vim \
   && rm -rf /var/lib/apt/lists/*
